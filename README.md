@@ -19,11 +19,27 @@ Timeless TacTix is a unique twist on the classic game of Tic Tac Toe. In this ga
 
 1. Clone or download the repository to your local machine.
 2. Navigate to the project directory.
-3. Run the game by executing the Python script.
+3. Create and activate a virtual environment:
+
+```
+python3 -m venv env
+source env/bin/activate  # On Unix/Linux
+.\env\Scripts\activate   # On Windows
+```
+
+4. Install the required dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+5. Run the game by executing the Python script:
 
 ```
 python timeless_tactix.py
 ```
+
+Enjoy playing Timeless TacTix and may the best strategist win!
 
 ## UpComing
 1. Reset Button
